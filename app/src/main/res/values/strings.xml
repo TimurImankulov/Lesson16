@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson16</string>
+    <string name="menu_title">Добавить</string>
+    <string name="etTitle_name">Заголовок</string>
+    <string name="etDesc_name">Описание</string>
+    <string name="btnSave_name">Сохранить</string>
+</resources>
