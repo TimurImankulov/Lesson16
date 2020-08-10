@@ -27,3 +27,4 @@ class RecyclerviewAdapter(): RecyclerView.Adapter<RecyclerviewViewHolder>() {
         notifyDataSetChanged()
     }
 }
+

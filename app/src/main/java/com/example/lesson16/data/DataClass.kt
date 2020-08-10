@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class DataClass (
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-    var etTitle: String = "",
-    var etDesc: String = ""
+    var etTitle: String,
+    var etDesc: String
 )
+

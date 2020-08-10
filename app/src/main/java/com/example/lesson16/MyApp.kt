@@ -8,11 +8,10 @@ class MyApp:Application() {
 
     private var db: DataBase? = null
 
-
     override fun onCreate() {
         super.onCreate()
         app = this
-        db = Room.databaseBuilder(applicationContext, DataBase::class.java, "MY_DATABASE")
+        db = Room.databaseBuilder(applicationContext, DataBase::class.java, DB_NAME)
             .allowMainThreadQueries()
             .build()
     }
@@ -20,5 +19,6 @@ class MyApp:Application() {
 
     companion object{
         var app: MyApp? = null
+        private const val DB_NAME = "MY_DATABASE"
     }
 }

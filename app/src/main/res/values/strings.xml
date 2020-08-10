@@ -4,4 +4,7 @@
     <string name="etTitle_name">Заголовок</string>
     <string name="etDesc_name">Описание</string>
     <string name="btnSave_name">Сохранить</string>
+    <string name="etLogin_name">Login</string>
+    <string name="etPassword_name">Password</string>
+    <string name="btnEnter_name">Войти</string>
 </resources>

@@ -8,8 +8,9 @@ import androidx.room.Query
 interface ETDao {
 
     @Insert
-    fun insertData(data:DataClass)
+    fun insertData(data: DataClass)
 
     @Query("SELECT * FROM DataClass")
     fun getData():List<DataClass>
+
 }
