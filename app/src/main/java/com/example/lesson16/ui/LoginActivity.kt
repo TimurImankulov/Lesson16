@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
                     login = etLogin.text.toString(),
                     password = etPassword.text.toString())
                 )
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, DataBaseActivity::class.java))
         } else {
                 Toast.makeText(this, "Введите верные данные", Toast.LENGTH_LONG).show()
             }

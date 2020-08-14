@@ -9,18 +9,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lesson16.MyApp
 import com.example.lesson16.R
 import com.example.lesson16.data.DataBase
-import com.example.lesson16.data.DataClass
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_second.*
 
-class MainActivity : AppCompatActivity() {
+
+class DataBaseActivity : AppCompatActivity() {
     private var recyclerView: RecyclerView? = null
     val adapter = RecyclerviewAdapter()
     private var db: DataBase? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_data_base)
         db = MyApp.app?.getDB()
 
         setupView()

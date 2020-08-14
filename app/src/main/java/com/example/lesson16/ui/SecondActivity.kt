@@ -25,7 +25,7 @@ class SecondActivity : AppCompatActivity() {
     private fun setupListeners() {
         btnSave.setOnClickListener {
             db?.getDao()?.insertData(fetchData())
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, DataBaseActivity::class.java))
             finish()
         }
     }
